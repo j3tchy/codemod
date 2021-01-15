@@ -22,8 +22,8 @@ export default (fileInfo, api) => {
             const { node } = nodePath;
 
             // node represents the key used within .find()
-            node.source.value = "@icds/components";
-            node.source.raw = "'@icds/components'";
+            node.source.value = "@jetchy/components";
+            node.source.raw = "'@jetchy/components'";
 
             return node;
         })
