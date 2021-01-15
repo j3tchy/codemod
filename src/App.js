@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { AppWrapper } from "@halo/components";
 
 function App() {
   return (
